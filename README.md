@@ -16,6 +16,20 @@ OS X:
 1. Create a folder to run code in this repo. Download the code and csv files and move it to this folder.
 2. Open Terminal.
 3. cd to the folder
-4. Type "python ./csvread.py" to run this program. NOTE: If you have 
+4. Type "python ./csvread.py" to run this program. 
+NOTE: If you have python 2 and python 3 installed run "python3 csvread.py"
+Windows:
+1. Create a folder to run code in this repo. Download the code and csv files and move it to this folder.
+2. Open Command Prompt.
+3. cd \ to the folder
+4. Type "csvread.py" to run this program. 
+NOTE: If it didn't work, make sure your PATH contains the python directory.
+Linux: 
+1. Create a folder to run code in this repo. Download the code and csv files and move it to this folder.
+2. Open up the terminal program. In KDE, open the main menu and select "Run Command..." to open Konsole. In GNOME, open the main menu, open the Applications folder, open the Accessories folder, and select Terminal.
+3. cd ~/ to the folder
+4. Type "chmod a+x csvread.py" to tell Linux that it is an executable program.
+5. Type "./csvread.py" to run this program. 
+
 
 
