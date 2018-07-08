@@ -36,6 +36,8 @@ Linux:
 3. cd ~/ to the folder
 4. Type "chmod a+x csvread.py" to tell Linux that it is an executable program.
 5. Type "./csvread.py" to run this program. 
-
+# Testing
+Functions: test_csv_fieldnames, test_list_dict, test_nested_dict, and test_write test all the other functions in this program to see if they do what they say they do. Note that instead of a dictionary you will get a OrderedDict object as output this is inevitable but in essence an OrderedDict object is the same as a dictionary for this case. To get more informaiton on what an OrderedDict object is refer to 
+this link, https://docs.python.org/3/library/collections.html#collections.OrderedDict. If you look at csvread.py you will notice that the test functions use table1.csv to test the code you can use any of the 7 files provided so as long as you change the separator, quote and keyfields.
 
 
